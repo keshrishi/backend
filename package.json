@@ -1,0 +1,14 @@
+{
+    "name": "housemate-backend",
+    "version": "1.0.0",
+    "description": "JSON Server backend for HouseMate",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "json-server": "^0.17.4"
+    },
+    "author": "",
+    "license": "ISC"
+}

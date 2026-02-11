@@ -1,0 +1,1094 @@
+{
+  "configs": {
+    "timeSlots": {
+      "Morning": [
+        "08:00 AM",
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "Afternoon": [
+        "12:00 PM",
+        "01:00 PM",
+        "02:00 PM",
+        "03:00 PM",
+        "04:00 PM"
+      ],
+      "Evening": [
+        "05:00 PM",
+        "06:00 PM",
+        "07:00 PM",
+        "08:00 PM"
+      ]
+    },
+    "houseTypes": [
+      "1 BHK",
+      "2 BHK",
+      "3 BHK",
+      "4 BHK",
+      "Villa"
+    ]
+  },
+  "users": [
+    {
+      "id": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "phone": "+919876543210",
+      "email": "customer@example.com",
+      "fullName": "Asha Kumar",
+      "password": "Str0ngP@ssw0rd!",
+      "roles": [
+        "ROLE_CUSTOMER"
+      ],
+      "blocked": false,
+      "createdAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "8f9c7b3e-1d41-5d7e-b9eg-0c9fgc0c0c52",
+      "phone": "+919876543211",
+      "email": "expert@example.com",
+      "fullName": "Ravi Sharma",
+      "password": "Str0ngP@ssw0rd!",
+      "roles": [
+        "ROLE_EXPERT"
+      ],
+      "blocked": false,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "customer-2-id",
+      "phone": "+919876543213",
+      "email": "john@example.com",
+      "fullName": "John Doe",
+      "password": "Str0ngP@ssw0rd!",
+      "roles": [
+        "ROLE_CUSTOMER"
+      ],
+      "blocked": false,
+      "createdAt": "2026-01-18T10:00:00Z"
+    },
+    {
+      "fullName": "Rishikesh Kumar",
+      "email": "rishikesh@example.com",
+      "password": "rishi@123",
+      "phone": "8292618988",
+      "id": "6f371476-23ce-473a-a600-a84b2f00f1f5",
+      "createdAt": "2026-02-10T21:44:56.895Z",
+      "roles": [
+        "ROLE_CUSTOMER"
+      ],
+      "blocked": false
+    },
+    {
+      "fullName": "harsh@example.com",
+      "email": "harsh@123",
+      "password": "rishi@123",
+      "phone": "7541820251",
+      "id": "92f23336-45b2-4f51-b6aa-2608178a19ea",
+      "createdAt": "2026-02-10T22:49:15.011Z",
+      "roles": [
+        "ROLE_CUSTOMER"
+      ],
+      "blocked": false
+    },
+    {
+      "fullName": "Harsh Ranjan",
+      "email": "hranjan2804@gmail.com",
+      "phone": "7541820251",
+      "password": "harsh@123",
+      "id": "c43b7439-01aa-4a8e-8ae4-5f5cba27afe4",
+      "createdAt": "2026-02-11T01:49:45.069Z",
+      "roles": [
+        "ROLE_EXPERT"
+      ],
+      "blocked": false
+    },
+    {
+      "id": "55555555-sara-5555-5555-555555555555",
+      "phone": "+919876543001",
+      "email": "sara@example.com",
+      "fullName": "Sara Khan",
+      "password": "expert@123",
+      "roles": [
+        "ROLE_EXPERT"
+      ],
+      "blocked": false,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "55555555-raje-5555-5555-555555555555",
+      "phone": "+919876543002",
+      "email": "rajesh@example.com",
+      "fullName": "Rajesh Kumar",
+      "password": "expert@123",
+      "roles": [
+        "ROLE_EXPERT"
+      ],
+      "blocked": false,
+      "createdAt": "2026-01-05T10:00:00Z"
+    },
+    {
+      "id": "55555555-amit-5555-5555-555555555555",
+      "phone": "+919876543003",
+      "email": "amit@example.com",
+      "fullName": "Amit Patel",
+      "password": "expert@123",
+      "roles": [
+        "ROLE_EXPERT"
+      ],
+      "blocked": false,
+      "createdAt": "2026-01-12T10:00:00Z"
+    },
+    {
+      "id": "55555555-suni-5555-5555-555555555555",
+      "phone": "+919876543004",
+      "email": "sunita@example.com",
+      "fullName": "Sunita Devi",
+      "password": "expert@123",
+      "roles": [
+        "ROLE_EXPERT"
+      ],
+      "blocked": false,
+      "createdAt": "2025-12-20T10:00:00Z"
+    }
+  ],
+  "customerProfiles": [
+    {
+      "id": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "userId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "fullName": "Asha Kumar",
+      "phone": "+919876543210",
+      "email": "customer@example.com",
+      "preferredZoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ]
+    },
+    {
+      "id": "customer-2-id",
+      "userId": "customer-2-id",
+      "fullName": "John Doe",
+      "phone": "+919876543213",
+      "email": "john@example.com",
+      "preferredZoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ]
+    },
+    {
+      "id": "6f371476-23ce-473a-a600-a84b2f00f1f5",
+      "userId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
+      "fullName": "Rishikesh Kumar",
+      "phone": "8292618988",
+      "email": "rishikesh@example.com",
+      "preferredZoneIds": []
+    }
+  ],
+  "addresses": [
+    {
+      "id": "address-rishi-1",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
+      "label": "Home",
+      "line1": "Flat 303, Galaxy Apts",
+      "line2": "HSR Layout",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "postalCode": "560102",
+      "lat": 12.9,
+      "lng": 77.6,
+      "isDefault": true
+    },
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "label": "Home",
+      "line1": "123 MG Road",
+      "line2": "Near Central Mall",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "postalCode": "560001",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "isDefault": true
+    },
+    {
+      "id": "address-2-id",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "label": "Office",
+      "line1": "45 Brigade Road",
+      "line2": "Tech Park",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "postalCode": "560025",
+      "lat": 12.9698,
+      "lng": 77.6025,
+      "isDefault": false
+    },
+    {
+      "label": "Home",
+      "line1": "Rajala,malang chowk, near dharmendra sudha milk parlour",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "postalCode": "844120",
+      "contactName": "John",
+      "contactPhone": "1234567890",
+      "houseType": "2 BHK",
+      "id": "63e8abbb-c477-475f-8e6e-fcf9f4406385",
+      "isDefault": false,
+      "customerId": "customer-2-id"
+    },
+    {
+      "label": "Home",
+      "line1": "Rajala,malang chowk, near dharmendra sudha milk parlour",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "postalCode": "844120",
+      "contactName": "fdzyr",
+      "contactPhone": "1234567890",
+      "houseType": "2 BHK",
+      "id": "97ce7905-8c6e-4056-8f7f-5d13d580ca94",
+      "isDefault": false,
+      "customerId": "92f23336-45b2-4f51-b6aa-2608178a19ea"
+    }
+  ],
+  "zones": [
+    {
+      "id": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "name": "Bangalore Central",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "isActive": true
+    },
+    {
+      "id": "zone-2-id",
+      "name": "Delhi NCR",
+      "city": "Delhi",
+      "state": "Delhi",
+      "isActive": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-cleaning",
+      "name": "Cleaning",
+      "description": "Home cleaning services",
+      "iconUrl": "assets/cleaning.png",
+      "isActive": true
+    },
+    {
+      "id": "cat-cooking",
+      "name": "Cooking",
+      "description": "Professional home cooking",
+      "iconUrl": "assets/cooking.png",
+      "isActive": true
+    },
+    {
+      "id": "cat-gardening",
+      "name": "Gardening",
+      "description": "Garden maintenance and landscaping",
+      "iconUrl": "assets/gardening.png",
+      "isActive": true
+    },
+    {
+      "id": "cat-plumbing",
+      "name": "Plumbing",
+      "description": "Pipe and tap repairs",
+      "iconUrl": "assets/landing_card1.png",
+      "isActive": true
+    },
+    {
+      "id": "cat-electrical",
+      "name": "Electrical",
+      "description": "Wiring and appliance repair",
+      "iconUrl": "assets/landing_card2.png",
+      "isActive": true
+    },
+    {
+      "id": "cat-painting",
+      "name": "Painting",
+      "description": "House painting services",
+      "iconUrl": "assets/landing_card3.png",
+      "isActive": true
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-cleaning-1",
+      "categoryId": "cat-cleaning",
+      "name": "Deep House Cleaning",
+      "description": "Complete dusting, mopping, and vacuuming",
+      "startingPrice": 499,
+      "currency": "INR",
+      "typicalDurationMinutes": 120,
+      "isActive": true,
+      "availableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "addons": []
+    },
+    {
+      "id": "srv-cleaning-2",
+      "categoryId": "cat-cleaning",
+      "name": "Bathroom Cleaning",
+      "description": "Deep cleaning of washrooms",
+      "startingPrice": 299,
+      "currency": "INR",
+      "typicalDurationMinutes": 60,
+      "isActive": true,
+      "availableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "addons": []
+    },
+    {
+      "id": "srv-cooking-1",
+      "categoryId": "cat-cooking",
+      "name": "North Indian Meal",
+      "description": "Roti, Sabzi, Dal, and Rice preparation",
+      "startingPrice": 399,
+      "currency": "INR",
+      "typicalDurationMinutes": 90,
+      "isActive": true,
+      "availableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "addons": []
+    },
+    {
+      "id": "srv-gardening-1",
+      "categoryId": "cat-gardening",
+      "name": "Garden Maintenance",
+      "description": "Watering, pruning, and cleaning",
+      "startingPrice": 350,
+      "currency": "INR",
+      "typicalDurationMinutes": 60,
+      "isActive": true,
+      "availableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "addons": []
+    },
+    {
+      "id": "srv-plumbing-1",
+      "categoryId": "cat-plumbing",
+      "name": "Leak Repair",
+      "description": "Fixing leaking pipes and taps",
+      "startingPrice": 250,
+      "currency": "INR",
+      "typicalDurationMinutes": 45,
+      "isActive": true,
+      "availableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "addons": []
+    },
+    {
+      "id": "srv-electrical-1",
+      "categoryId": "cat-electrical",
+      "name": "Fan Installation",
+      "description": "Ceiling or wall fan installation",
+      "startingPrice": 200,
+      "currency": "INR",
+      "typicalDurationMinutes": 30,
+      "isActive": true,
+      "availableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "addons": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": "66666666-6666-6666-6666-666666666666",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "expertId": "exp-ravi",
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cleaning-1",
+      "addressId": "55555555-5555-5555-5555-555555555555",
+      "status": "CONFIRMED",
+      "bookingType": "ASAP",
+      "durationMinutes": 60,
+      "addonIds": [
+        "addon-1-id"
+      ],
+      "quotedAmount": 349,
+      "currency": "INR",
+      "etaMinutes": 35,
+      "scheduledStartTime": null,
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "Please bring cleaning supplies",
+      "otp": "1234",
+      "createdAt": "2026-01-20T12:02:10Z",
+      "updatedAt": "2026-01-20T12:05:00Z"
+    },
+    {
+      "id": "booking-2-id",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "expertId": null,
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cleaning-2",
+      "addressId": "55555555-5555-5555-5555-555555555555",
+      "status": "PENDING_PAYMENT",
+      "bookingType": "SCHEDULED",
+      "durationMinutes": 45,
+      "addonIds": [],
+      "quotedAmount": 199,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": "2026-01-30T14:00:00Z",
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "",
+      "otp": "5678",
+      "createdAt": "2026-01-25T10:00:00Z",
+      "updatedAt": "2026-01-25T10:00:00Z"
+    },
+    {
+      "id": "booking-3-id",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "expertId": "exp-ravi",
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-plumbing-1",
+      "addressId": "address-2-id",
+      "status": "COMPLETED",
+      "bookingType": "ASAP",
+      "durationMinutes": 60,
+      "addonIds": [],
+      "quotedAmount": 299,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": null,
+      "actualStartTime": "2026-01-18T11:00:00Z",
+      "actualEndTime": "2026-01-18T12:05:00Z",
+      "notes": "",
+      "otp": "9012",
+      "createdAt": "2026-01-18T10:30:00Z",
+      "updatedAt": "2026-01-18T12:05:00Z"
+    },
+    {
+      "id": "booking-john-1",
+      "customerId": "customer-2-id",
+      "expertId": null,
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cleaning-1",
+      "addressId": "address-2-id",
+      "status": "UPCOMING",
+      "bookingType": "SCHEDULED",
+      "durationMinutes": 120,
+      "addonIds": [],
+      "quotedAmount": 499,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": "2026-02-15T10:00:00Z",
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "Key under mat",
+      "otp": "9999",
+      "createdAt": "2026-02-10T09:00:00Z",
+      "updatedAt": "2026-02-10T09:00:00Z"
+    },
+    {
+      "id": "booking-john-2",
+      "customerId": "customer-2-id",
+      "expertId": null,
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cleaning-1",
+      "addressId": "address-2-id",
+      "status": "UPCOMING",
+      "bookingType": "SCHEDULED",
+      "durationMinutes": 120,
+      "addonIds": [],
+      "quotedAmount": 499,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": "2026-02-18T14:30:00Z",
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "Deep clean kitchen",
+      "otp": "8888",
+      "createdAt": "2026-02-12T09:00:00Z",
+      "updatedAt": "2026-02-12T09:00:00Z"
+    },
+    {
+      "id": "booking-asha-1",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "expertId": null,
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cleaning-1",
+      "addressId": "55555555-5555-5555-5555-555555555555",
+      "status": "UPCOMING",
+      "bookingType": "SCHEDULED",
+      "durationMinutes": 180,
+      "addonIds": [],
+      "quotedAmount": 799,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": "2026-02-20T09:00:00Z",
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "Full house deep cleaning",
+      "otp": "7777",
+      "createdAt": "2026-02-12T10:00:00Z",
+      "updatedAt": "2026-02-12T10:00:00Z"
+    },
+    {
+      "id": "booking-rishi-1",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
+      "expertId": null,
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cooking-1",
+      "addressId": "address-rishi-1",
+      "status": "UPCOMING",
+      "bookingType": "SCHEDULED",
+      "durationMinutes": 120,
+      "addonIds": [],
+      "quotedAmount": 599,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": "2026-02-22T11:00:00Z",
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "Prepare lunch for 4",
+      "otp": "4545",
+      "createdAt": "2026-02-12T11:00:00Z",
+      "updatedAt": "2026-02-12T11:00:00Z"
+    },
+    {
+      "id": "booking-rishi-2",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
+      "expertId": null,
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-gardening-1",
+      "addressId": "address-rishi-1",
+      "status": "UPCOMING",
+      "bookingType": "SCHEDULED",
+      "durationMinutes": 180,
+      "addonIds": [],
+      "quotedAmount": 899,
+      "currency": "INR",
+      "etaMinutes": null,
+      "scheduledStartTime": "2026-02-25T09:00:00Z",
+      "actualStartTime": null,
+      "actualEndTime": null,
+      "notes": "Lawn mowing and trimming",
+      "otp": "6767",
+      "createdAt": "2026-02-12T11:05:00Z",
+      "updatedAt": "2026-02-12T11:05:00Z"
+    },
+    {
+      "id": "282cb8ab-5ecd-4fd8-8e1b-06564beab414",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "exp-sara",
+      "addressId": "63e8abbb-c477-475f-8e6e-fcf9f4406385",
+      "scheduledStartTime": "2026-02-16T02:30:00.000Z",
+      "timeSlot": "08:00 AM",
+      "status": "CONFIRMED",
+      "totalAmount": 589,
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:28:57.515Z",
+      "customerId": "customer-2-id"
+    },
+    {
+      "id": "6299816b-5595-4bbc-8cc6-4da1570a61b0",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "exp-sara",
+      "addressId": "63e8abbb-c477-475f-8e6e-fcf9f4406385",
+      "scheduledStartTime": "2026-02-24T10:30:00.000Z",
+      "timeSlot": "04:00 PM",
+      "status": "CONFIRMED",
+      "totalAmount": 589,
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:34:13.835Z",
+      "customerId": "customer-2-id"
+    },
+    {
+      "id": "ceafabf4-a8ad-4138-ad04-1d7e553f688c",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "exp-sara",
+      "addressId": "63e8abbb-c477-475f-8e6e-fcf9f4406385",
+      "scheduledStartTime": "2026-02-25T02:30:00.000Z",
+      "timeSlot": "08:00 AM",
+      "status": "CONFIRMED",
+      "totalAmount": 589,
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:39:20.868Z",
+      "customerId": "customer-2-id"
+    },
+    {
+      "id": "f6785b08-57a0-49cc-924c-f1f5ab5e7f17",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "exp-amit",
+      "addressId": "address-rishi-1",
+      "scheduledStartTime": "2026-02-25T06:30:00.000Z",
+      "timeSlot": "12:00 PM",
+      "status": "PENDING",
+      "totalAmount": 589,
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:40:59.890Z",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
+    },
+    {
+      "id": "410a9076-da24-4953-8ce4-696fe0af8617",
+      "serviceId": "srv-gardening-1",
+      "expertId": "exp-amit",
+      "addressId": "address-rishi-1",
+      "scheduledStartTime": "2026-02-28T03:30:00.000Z",
+      "timeSlot": "09:00 AM",
+      "status": "CONFIRMED",
+      "totalAmount": 413,
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:45:32.968Z",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
+    },
+    {
+      "id": "656c957d-fe75-40a7-b32b-b6d9c8891a69",
+      "serviceId": "srv-plumbing-1",
+      "expertId": "exp-rajesh",
+      "addressId": "63e8abbb-c477-475f-8e6e-fcf9f4406385",
+      "scheduledStartTime": "2026-02-27T11:30:00.000Z",
+      "timeSlot": "05:00 PM",
+      "status": "CONFIRMED",
+      "totalAmount": 245,
+      "discountAmount": 50,
+      "couponId": "coupon-1-id",
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:47:44.406Z",
+      "customerId": "customer-2-id"
+    },
+    {
+      "id": "cdf37c88-8a71-4965-a8d4-3fbe9d030833",
+      "serviceId": "srv-plumbing-1",
+      "expertId": "exp-rajesh",
+      "addressId": "97ce7905-8c6e-4056-8f7f-5d13d580ca94",
+      "scheduledStartTime": "2026-02-24T05:30:00.000Z",
+      "timeSlot": "11:00 AM",
+      "status": "CONFIRMED",
+      "totalAmount": 295,
+      "discountAmount": 0,
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:50:29.307Z",
+      "customerId": "92f23336-45b2-4f51-b6aa-2608178a19ea"
+    },
+    {
+      "id": "beb11fb2-5830-4a1a-a6ad-5625de61aad4",
+      "serviceId": "srv-electrical-1",
+      "expertId": "exp-rajesh",
+      "addressId": "address-rishi-1",
+      "scheduledStartTime": "2026-02-25T09:30:00.000Z",
+      "timeSlot": "03:00 PM",
+      "status": "PENDING",
+      "totalAmount": 186,
+      "discountAmount": 50,
+      "couponId": "coupon-1-id",
+      "currency": "INR",
+      "createdAt": "2026-02-10T22:55:52.053Z",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
+    },
+    {
+      "id": "93b31c2c-94e5-4f92-b836-8e67ab485ca0",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "exp-sara",
+      "addressId": "address-rishi-1",
+      "scheduledStartTime": "2026-02-24T05:30:00.000Z",
+      "timeSlot": "11:00 AM",
+      "status": "PENDING",
+      "totalAmount": 539,
+      "discountAmount": 50,
+      "couponId": "coupon-1-id",
+      "currency": "INR",
+      "createdAt": "2026-02-11T01:56:58.031Z",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
+    },
+    {
+      "id": "1acfbc64-009c-4ebc-b2f2-65617face7ed",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "9f671d59-6a41-4c8f-acf7-e4c24348405d",
+      "addressId": "address-rishi-1",
+      "scheduledStartTime": "2026-02-24T03:30:00.000Z",
+      "timeSlot": "09:00 AM",
+      "status": "PENDING",
+      "totalAmount": 589,
+      "discountAmount": 0,
+      "currency": "INR",
+      "createdAt": "2026-02-11T02:18:55.378Z",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
+    },
+    {
+      "id": "booking-ravi-pending",
+      "serviceId": "srv-cleaning-1",
+      "expertId": "exp-ravi",
+      "addressId": "address-rishi-1",
+      "scheduledStartTime": "2026-02-26T10:00:00.000Z",
+      "timeSlot": "10:00 AM",
+      "status": "PENDING",
+      "totalAmount": 499,
+      "currency": "INR",
+      "createdAt": "2026-02-11T09:00:00.000Z",
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
+    }
+  ],
+  "payments": [
+    {
+      "id": "77777777-7777-7777-7777-777777777777",
+      "bookingId": "66666666-6666-6666-6666-666666666666",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "amount": 349,
+      "currency": "INR",
+      "status": "SUCCEEDED",
+      "method": "UPI",
+      "transactionId": "txn_123456789",
+      "receiptId": "receipt-1-id",
+      "createdAt": "2026-01-20T12:03:00Z",
+      "updatedAt": "2026-01-20T12:03:30Z"
+    },
+    {
+      "id": "payment-2-id",
+      "bookingId": "booking-3-id",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "amount": 299,
+      "currency": "INR",
+      "status": "SUCCEEDED",
+      "method": "CARD",
+      "transactionId": "txn_987654321",
+      "receiptId": "receipt-2-id",
+      "createdAt": "2026-01-18T10:35:00Z",
+      "updatedAt": "2026-01-18T10:35:15Z"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "receipt-1-id",
+      "bookingId": "66666666-6666-6666-6666-666666666666",
+      "paymentId": "77777777-7777-7777-7777-777777777777",
+      "amount": 349,
+      "currency": "INR",
+      "serviceName": "Deep House Cleaning",
+      "customerName": "Asha Kumar",
+      "expertName": "Ravi Sharma",
+      "issuedAt": "2026-01-20T12:03:30Z",
+      "breakdown": [
+        {
+          "label": "Base Service",
+          "amount": 299
+        },
+        {
+          "label": "Balcony Cleaning",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "id": "receipt-2-id",
+      "bookingId": "booking-3-id",
+      "paymentId": "payment-2-id",
+      "amount": 299,
+      "currency": "INR",
+      "serviceName": "Fan Installation",
+      "customerName": "Asha Kumar",
+      "expertName": "Ravi Sharma",
+      "issuedAt": "2026-01-18T10:35:15Z",
+      "breakdown": [
+        {
+          "label": "Base Service",
+          "amount": 299
+        }
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "id": "rating-1-id",
+      "bookingId": "booking-3-id",
+      "customerId": "7e8b6a2d-0c30-4c6d-a8df-9b8efb9a9b41",
+      "expertId": "8f9c7b3e-1d41-5d7e-b9eg-0c9fgc0c0c52",
+      "stars": 5,
+      "comment": "Excellent service! Very professional and quick.",
+      "createdAt": "2026-01-18T12:30:00Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coupon-1-id",
+      "code": "FIRST50",
+      "description": "50 INR off on first booking",
+      "discountType": "FIXED",
+      "discountValue": 50,
+      "currency": "INR",
+      "minOrderValue": 200,
+      "maxDiscount": 50,
+      "validFrom": "2026-01-01T00:00:00Z",
+      "validUntil": "2026-12-31T23:59:59Z",
+      "usageLimit": 1,
+      "isActive": true,
+      "applicableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+        "zone-2-id"
+      ],
+      "applicableServices": []
+    },
+    {
+      "id": "coupon-2-id",
+      "code": "CLEAN20",
+      "description": "20% off on cleaning services",
+      "discountType": "PERCENTAGE",
+      "discountValue": 20,
+      "currency": "INR",
+      "minOrderValue": 300,
+      "maxDiscount": 100,
+      "validFrom": "2026-01-01T00:00:00Z",
+      "validUntil": "2026-06-30T23:59:59Z",
+      "usageLimit": null,
+      "isActive": true,
+      "applicableZones": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "applicableServices": [
+        "11111111-1111-1111-1111-111111111111",
+        "service-5-id"
+      ]
+    }
+  ],
+  "discountRules": [
+    {
+      "id": "rule-1-id",
+      "name": "First Time Customer Discount",
+      "discountType": "PERCENTAGE",
+      "discountValue": 10,
+      "conditions": {
+        "firstTimeCustomer": true
+      },
+      "isActive": true
+    }
+  ],
+  "expertProfiles": [
+    {
+      "id": "exp-sara",
+      "userId": "55555555-sara-5555-5555-555555555555",
+      "fullName": "Sara Khan",
+      "phone": "+919876543001",
+      "skills": [
+        "Cleaning",
+        "Cooking"
+      ],
+      "zoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "status": "APPROVED",
+      "onlineStatus": "ONLINE",
+      "rating": 4.7,
+      "totalJobs": 122,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "exp-rajesh",
+      "userId": "55555555-raje-5555-5555-555555555555",
+      "fullName": "Rajesh Kumar",
+      "phone": "+919876543002",
+      "skills": [
+        "Electrical",
+        "Plumbing"
+      ],
+      "zoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "status": "APPROVED",
+      "onlineStatus": "ONLINE",
+      "rating": 4.8,
+      "totalJobs": 210,
+      "createdAt": "2026-01-05T10:00:00Z"
+    },
+    {
+      "id": "exp-amit",
+      "userId": "55555555-amit-5555-5555-555555555555",
+      "fullName": "Amit Patel",
+      "phone": "+919876543003",
+      "skills": [
+        "Gardening",
+        "Painting"
+      ],
+      "zoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "status": "APPROVED",
+      "onlineStatus": "OFFLINE",
+      "rating": 4.5,
+      "totalJobs": 85,
+      "createdAt": "2026-01-12T10:00:00Z"
+    },
+    {
+      "id": "exp-sunita",
+      "userId": "55555555-suni-5555-5555-555555555555",
+      "fullName": "Sunita Devi",
+      "phone": "+919876543004",
+      "skills": [
+        "Cooking",
+        "Cleaning"
+      ],
+      "zoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "status": "APPROVED",
+      "onlineStatus": "ONLINE",
+      "rating": 4.9,
+      "totalJobs": 300,
+      "createdAt": "2025-12-20T10:00:00Z"
+    },
+    {
+      "id": "exp-ravi",
+      "userId": "8f9c7b3e-1d41-5d7e-b9eg-0c9fgc0c0c52",
+      "fullName": "Ravi Sharma",
+      "phone": "+919876543211",
+      "skills": [
+        "Cleaning",
+        "Plumbing",
+        "Electrical"
+      ],
+      "zoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "status": "APPROVED",
+      "onlineStatus": "ONLINE",
+      "rating": 4.6,
+      "totalJobs": 150,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "userId": "c43b7439-01aa-4a8e-8ae4-5f5cba27afe4",
+      "fullName": "Harsh Ranjan",
+      "phone": "7541820251",
+      "email": "hranjan2804@gmail.com",
+      "dob": "2004-04-29",
+      "address": "Rajala,malang chowk, near dharmendra sudha milk parlour",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "pincode": "842002",
+      "skills": [
+        "Deep House Cleaning",
+        "Fan Installation"
+      ],
+      "experience": "5 Years 3 Months",
+      "specialization": "I am expert from 5 years",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "education": "Graduate",
+      "availability": "Full-time",
+      "hourlyRate": 500,
+      "about": "",
+      "idType": "Aadhar Card",
+      "idNumber": "123456789012",
+      "photo": "assets/uploads/pan front.jpeg",
+      "zoneIds": [],
+      "id": "9f671d59-6a41-4c8f-acf7-e4c24348405d",
+      "status": "PENDING",
+      "rating": 0,
+      "totalJobs": 0,
+      "onlineStatus": "ONLINE",
+      "createdAt": "2026-02-11T01:49:45.433Z"
+    }
+  ],
+  "expertOnboarding": [
+    {
+      "id": "onboarding-1-id",
+      "expertId": "exp-ravi",
+      "fullName": "Ravi Sharma",
+      "phone": "+919876543211",
+      "skills": [
+        "Cleaning",
+        "Plumbing",
+        "Electrical"
+      ],
+      "zoneIds": [
+        "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111"
+      ],
+      "status": "APPROVED",
+      "reason": null,
+      "submittedAt": "2026-01-10T10:00:00Z",
+      "reviewedAt": "2026-01-10T15:00:00Z"
+    },
+    {
+      "id": "onboarding-2-id",
+      "expertId": "pending-expert-id",
+      "fullName": "Suresh Kumar",
+      "phone": "+919876543215",
+      "skills": [
+        "Plumbing"
+      ],
+      "zoneIds": [
+        "zone-2-id"
+      ],
+      "status": "PENDING",
+      "reason": null,
+      "submittedAt": "2026-01-28T10:00:00Z",
+      "reviewedAt": null
+    }
+  ],
+  "expertJobs": [
+    {
+      "id": "66666666-6666-6666-6666-666666666666",
+      "expertId": "exp-ravi",
+      "bookingId": "66666666-6666-6666-6666-666666666666",
+      "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
+      "serviceId": "srv-cleaning-1",
+      "addressHint": "123 MG Road, Near Central Mall",
+      "quotedAmount": 349,
+      "currency": "INR",
+      "status": "ACCEPTED",
+      "expiresAt": "2026-01-20T12:15:00Z",
+      "acceptedAt": "2026-01-20T12:05:00Z"
+    }
+  ],
+  "expertEarnings": [
+    {
+      "expertId": "exp-ravi",
+      "totalEarned": 45678,
+      "currency": "INR",
+      "completedJobs": 156,
+      "pendingAmount": 1234,
+      "lastPayoutAt": "2026-01-15T00:00:00Z"
+    }
+  ],
+  "expertPayouts": [
+    {
+      "id": "payout-1-id",
+      "expertId": "exp-ravi",
+      "amount": 5000,
+      "currency": "INR",
+      "status": "COMPLETED",
+      "method": "BANK_TRANSFER",
+      "transactionId": "payout_txn_123",
+      "processedAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "payout-2-id",
+      "expertId": "exp-ravi",
+      "amount": 4500,
+      "currency": "INR",
+      "status": "COMPLETED",
+      "method": "BANK_TRANSFER",
+      "transactionId": "payout_txn_124",
+      "processedAt": "2026-01-08T00:00:00Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "How Can I Trust The Expert Sent By HouseMate?",
+      "answer": "We Thoroughly Vet All Of Our Experts Through Background Checks And Skill Assessments. You Can Also View Ratings And Reviews From Other Users Before Booking."
+    },
+    {
+      "id": "faq-2",
+      "question": "What If The Service Provider Is Late Or Doesn't Show Up?",
+      "answer": "In the rare event of a no-show or delay, please contact our support team immediately. We will arrange a replacement or process a full refund."
+    },
+    {
+      "id": "faq-3",
+      "question": "Do I Have To Be Home During The Service?",
+      "answer": "It is recommended to be present for the start and end of the service to provide instructions and verify the work. However, you can leave once the expert starts working."
+    },
+    {
+      "id": "faq-4",
+      "question": "How Do I Pay For The Service?",
+      "answer": "You can pay securely online via Card, UPI, or Net Banking during checkout. We also offer Cash After Service for select categories."
+    }
+  ]
+}
