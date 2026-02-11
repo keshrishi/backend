@@ -149,18 +149,6 @@
       ],
       "blocked": false,
       "createdAt": "2025-12-20T10:00:00Z"
-    },
-    {
-      "fullName": "Aditya Prakash",
-      "email": "aditya@example.com",
-      "password": "aditya@123",
-      "phone": "8292934155",
-      "id": "5cc15e51-0403-404d-a956-1ebc5041d415",
-      "createdAt": "2026-02-11T19:12:04.806Z",
-      "roles": [
-        "ROLE_CUSTOMER"
-      ],
-      "blocked": false
     }
   ],
   "customerProfiles": [
@@ -258,19 +246,6 @@
       "id": "97ce7905-8c6e-4056-8f7f-5d13d580ca94",
       "isDefault": false,
       "customerId": "92f23336-45b2-4f51-b6aa-2608178a19ea"
-    },
-    {
-      "label": "Home",
-      "line1": "abc",
-      "city": "a",
-      "state": "v",
-      "postalCode": "123456",
-      "contactName": "aditya",
-      "contactPhone": "1234567890",
-      "houseType": "2 BHK",
-      "id": "0b74cc1a-01e4-4bc6-a32f-423bdfe5c60d",
-      "isDefault": false,
-      "customerId": "5cc15e51-0403-404d-a956-1ebc5041d415"
     }
   ],
   "zones": [
@@ -441,8 +416,6 @@
       "actualEndTime": null,
       "notes": "Please bring cleaning supplies",
       "otp": "1234",
-      "startOtp": "1234",
-      "endOtp": "5678",
       "createdAt": "2026-01-20T12:02:10Z",
       "updatedAt": "2026-01-20T12:05:00Z"
     },
@@ -465,8 +438,6 @@
       "actualEndTime": null,
       "notes": "",
       "otp": "5678",
-      "startOtp": "5678",
-      "endOtp": "9012",
       "createdAt": "2026-01-25T10:00:00Z",
       "updatedAt": "2026-01-25T10:00:00Z"
     },
@@ -489,8 +460,6 @@
       "actualEndTime": "2026-01-18T12:05:00Z",
       "notes": "",
       "otp": "9012",
-      "startOtp": "9012",
-      "endOtp": "3456",
       "createdAt": "2026-01-18T10:30:00Z",
       "updatedAt": "2026-01-18T12:05:00Z"
     },
@@ -501,7 +470,7 @@
       "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
       "serviceId": "srv-cleaning-1",
       "addressId": "address-2-id",
-      "status": "CANCELLED",
+      "status": "UPCOMING",
       "bookingType": "SCHEDULED",
       "durationMinutes": 120,
       "addonIds": [],
@@ -513,8 +482,6 @@
       "actualEndTime": null,
       "notes": "Key under mat",
       "otp": "9999",
-      "startOtp": "9999",
-      "endOtp": "0000",
       "createdAt": "2026-02-10T09:00:00Z",
       "updatedAt": "2026-02-10T09:00:00Z"
     },
@@ -525,7 +492,7 @@
       "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
       "serviceId": "srv-cleaning-1",
       "addressId": "address-2-id",
-      "status": "CANCELLED",
+      "status": "UPCOMING",
       "bookingType": "SCHEDULED",
       "durationMinutes": 120,
       "addonIds": [],
@@ -537,8 +504,6 @@
       "actualEndTime": null,
       "notes": "Deep clean kitchen",
       "otp": "8888",
-      "startOtp": "8888",
-      "endOtp": "9999",
       "createdAt": "2026-02-12T09:00:00Z",
       "updatedAt": "2026-02-12T09:00:00Z"
     },
@@ -549,7 +514,7 @@
       "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
       "serviceId": "srv-cleaning-1",
       "addressId": "55555555-5555-5555-5555-555555555555",
-      "status": "CANCELLED",
+      "status": "UPCOMING",
       "bookingType": "SCHEDULED",
       "durationMinutes": 180,
       "addonIds": [],
@@ -561,23 +526,21 @@
       "actualEndTime": null,
       "notes": "Full house deep cleaning",
       "otp": "7777",
-      "startOtp": "7777",
-      "endOtp": "8888",
       "createdAt": "2026-02-12T10:00:00Z",
       "updatedAt": "2026-02-12T10:00:00Z"
     },
     {
       "id": "booking-rishi-1",
       "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "expertId": "55555555-raje-5555-5555-555555555555",
+      "expertId": null,
       "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
-      "serviceId": "srv-gardening-1",
+      "serviceId": "srv-cooking-1",
       "addressId": "address-rishi-1",
       "status": "UPCOMING",
       "bookingType": "SCHEDULED",
       "durationMinutes": 120,
       "addonIds": [],
-      "quotedAmount": 499,
+      "quotedAmount": 599,
       "currency": "INR",
       "etaMinutes": null,
       "scheduledStartTime": "2026-02-22T11:00:00Z",
@@ -585,12 +548,8 @@
       "actualEndTime": null,
       "notes": "Prepare lunch for 4",
       "otp": "4545",
-      "startOtp": "4545",
-      "endOtp": "5656",
       "createdAt": "2026-02-12T11:00:00Z",
-      "updatedAt": "2026-02-12T11:00:00Z",
-      "serviceName": "Garden Maintenance",
-      "totalAmount": 499
+      "updatedAt": "2026-02-12T11:00:00Z"
     },
     {
       "id": "booking-rishi-2",
@@ -599,7 +558,7 @@
       "zoneId": "a3c62d2c-1d4b-4a26-9d0c-b6c1a7a7a111",
       "serviceId": "srv-gardening-1",
       "addressId": "address-rishi-1",
-      "status": "CANCELLED",
+      "status": "UPCOMING",
       "bookingType": "SCHEDULED",
       "durationMinutes": 180,
       "addonIds": [],
@@ -611,8 +570,6 @@
       "actualEndTime": null,
       "notes": "Lawn mowing and trimming",
       "otp": "6767",
-      "startOtp": "6767",
-      "endOtp": "7878",
       "createdAt": "2026-02-12T11:05:00Z",
       "updatedAt": "2026-02-12T11:05:00Z"
     },
@@ -627,9 +584,7 @@
       "totalAmount": 589,
       "currency": "INR",
       "createdAt": "2026-02-10T22:28:57.515Z",
-      "customerId": "customer-2-id",
-      "startOtp": "1111",
-      "endOtp": "2222"
+      "customerId": "customer-2-id"
     },
     {
       "id": "6299816b-5595-4bbc-8cc6-4da1570a61b0",
@@ -642,9 +597,7 @@
       "totalAmount": 589,
       "currency": "INR",
       "createdAt": "2026-02-10T22:34:13.835Z",
-      "customerId": "customer-2-id",
-      "startOtp": "3333",
-      "endOtp": "4444"
+      "customerId": "customer-2-id"
     },
     {
       "id": "ceafabf4-a8ad-4138-ad04-1d7e553f688c",
@@ -657,9 +610,7 @@
       "totalAmount": 589,
       "currency": "INR",
       "createdAt": "2026-02-10T22:39:20.868Z",
-      "customerId": "customer-2-id",
-      "startOtp": "5555",
-      "endOtp": "6666"
+      "customerId": "customer-2-id"
     },
     {
       "id": "f6785b08-57a0-49cc-924c-f1f5ab5e7f17",
@@ -672,9 +623,7 @@
       "totalAmount": 589,
       "currency": "INR",
       "createdAt": "2026-02-10T22:40:59.890Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "7777",
-      "endOtp": "8888"
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
     },
     {
       "id": "410a9076-da24-4953-8ce4-696fe0af8617",
@@ -687,9 +636,7 @@
       "totalAmount": 413,
       "currency": "INR",
       "createdAt": "2026-02-10T22:45:32.968Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "9999",
-      "endOtp": "0000"
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
     },
     {
       "id": "656c957d-fe75-40a7-b32b-b6d9c8891a69",
@@ -704,9 +651,7 @@
       "couponId": "coupon-1-id",
       "currency": "INR",
       "createdAt": "2026-02-10T22:47:44.406Z",
-      "customerId": "customer-2-id",
-      "startOtp": "1212",
-      "endOtp": "3434"
+      "customerId": "customer-2-id"
     },
     {
       "id": "cdf37c88-8a71-4965-a8d4-3fbe9d030833",
@@ -720,9 +665,7 @@
       "discountAmount": 0,
       "currency": "INR",
       "createdAt": "2026-02-10T22:50:29.307Z",
-      "customerId": "92f23336-45b2-4f51-b6aa-2608178a19ea",
-      "startOtp": "5656",
-      "endOtp": "7878"
+      "customerId": "92f23336-45b2-4f51-b6aa-2608178a19ea"
     },
     {
       "id": "beb11fb2-5830-4a1a-a6ad-5625de61aad4",
@@ -737,9 +680,7 @@
       "couponId": "coupon-1-id",
       "currency": "INR",
       "createdAt": "2026-02-10T22:55:52.053Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "9090",
-      "endOtp": "1234"
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
     },
     {
       "id": "93b31c2c-94e5-4f92-b836-8e67ab485ca0",
@@ -754,9 +695,7 @@
       "couponId": "coupon-1-id",
       "currency": "INR",
       "createdAt": "2026-02-11T01:56:58.031Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "4321",
-      "endOtp": "0987"
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
     },
     {
       "id": "1acfbc64-009c-4ebc-b2f2-65617face7ed",
@@ -770,9 +709,7 @@
       "discountAmount": 0,
       "currency": "INR",
       "createdAt": "2026-02-11T02:18:55.378Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "6543",
-      "endOtp": "2109"
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
     },
     {
       "id": "booking-ravi-pending",
@@ -785,117 +722,7 @@
       "totalAmount": 499,
       "currency": "INR",
       "createdAt": "2026-02-11T09:00:00.000Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "0000",
-      "endOtp": "1111"
-    },
-    {
-      "id": "0efc6fd0-d069-40d7-8274-da59510c8082",
-      "serviceId": "srv-electrical-1",
-      "expertId": "exp-ravi",
-      "addressId": "address-rishi-1",
-      "scheduledStartTime": "2026-03-01T02:30:00.000Z",
-      "timeSlot": "08:00 AM",
-      "status": "PENDING",
-      "totalAmount": 186,
-      "discountAmount": 50,
-      "couponId": "coupon-1-id",
-      "currency": "INR",
-      "createdAt": "2026-02-11T19:02:26.235Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "3726",
-      "endOtp": "5101"
-    },
-    {
-      "id": "56815ca5-b932-444c-b707-411da2947826",
-      "serviceId": "srv-cleaning-1",
-      "expertId": "exp-sara",
-      "addressId": "address-rishi-1",
-      "scheduledStartTime": "2026-02-18T07:30:00.000Z",
-      "timeSlot": "01:00 PM",
-      "status": "PENDING",
-      "totalAmount": 489,
-      "discountAmount": 100,
-      "couponId": "coupon-2-id",
-      "currency": "INR",
-      "createdAt": "2026-02-11T19:03:45.585Z",
-      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5",
-      "startOtp": "6101",
-      "endOtp": "7566"
-    },
-    {
-      "id": "9f530831-4f00-4bed-8d01-07aaaa246a32",
-      "serviceId": "srv-cleaning-1",
-      "expertId": "exp-ravi",
-      "addressId": "0b74cc1a-01e4-4bc6-a32f-423bdfe5c60d",
-      "scheduledStartTime": "2026-03-01T02:30:00.000Z",
-      "timeSlot": "08:00 AM",
-      "status": "UPCOMING",
-      "bookingType": "SCHEDULED",
-      "totalAmount": 589,
-      "discountAmount": 0,
-      "currency": "INR",
-      "createdAt": "2026-02-11T19:13:04.536Z",
-      "customerId": "5cc15e51-0403-404d-a956-1ebc5041d415",
-      "startOtp": "2388",
-      "endOtp": "1784"
-    },
-    {
-      "id": "71479827-093a-49d5-b643-ac8c4fdcd1b4",
-      "serviceId": "srv-cleaning-1",
-      "expertId": "exp-sunita",
-      "addressId": "0b74cc1a-01e4-4bc6-a32f-423bdfe5c60d",
-      "scheduledStartTime": "2026-02-21T03:30:00.000Z",
-      "timeSlot": "09:00 AM",
-      "status": "UPCOMING",
-      "bookingType": "SCHEDULED",
-      "totalAmount": 589,
-      "discountAmount": 0,
-      "currency": "INR",
-      "createdAt": "2026-02-11T19:17:23.743Z",
-      "customerId": "5cc15e51-0403-404d-a956-1ebc5041d415",
-      "startOtp": "5187",
-      "endOtp": "5429"
-    },
-    {
-      "id": "bcfb060d-e2af-460f-8696-2b362c7306c0",
-      "serviceId": "srv-cleaning-2",
-      "expertId": "c43b7439-01aa-4a8e-8ae4-5f5cba27afe4",
-      "addressId": "0b74cc1a-01e4-4bc6-a32f-423bdfe5c60d",
-      "scheduledStartTime": "2026-04-01T02:30:00.000Z",
-      "timeSlot": "08:00 AM",
-      "status": "UPCOMING",
-      "bookingType": "SCHEDULED",
-      "totalAmount": 499,
-      "quotedAmount": 499,
-      "discountAmount": 0,
-      "currency": "INR",
-      "createdAt": "2026-02-11T19:19:42.537Z",
-      "customerId": "5cc15e51-0403-404d-a956-1ebc5041d415",
-      "startOtp": "4079",
-      "endOtp": "4345",
-      "serviceName": "Bathroom Cleaning"
-    },
-    {
-      "id": "434755b0-efa6-4b04-a991-0b667bdb0ac0",
-      "serviceId": "srv-cleaning-1",
-      "expertId": "9f671d59-6a41-4c8f-acf7-e4c24348405d",
-      "addressId": "0b74cc1a-01e4-4bc6-a32f-423bdfe5c60d",
-      "scheduledStartTime": "2026-04-01T03:30:00.000Z",
-      "timeSlot": "09:00 AM",
-      "status": "COMPLETED",
-      "bookingType": "SCHEDULED",
-      "totalAmount": 489,
-      "quotedAmount": 489,
-      "discountAmount": 100,
-      "couponId": "coupon-2-id",
-      "currency": "INR",
-      "createdAt": "2026-02-11T19:27:21.512Z",
-      "customerId": "5cc15e51-0403-404d-a956-1ebc5041d415",
-      "startOtp": "3791",
-      "endOtp": "9390",
-      "actualStartTime": "2026-02-11T19:28:40.359Z",
-      "actualEndTime": "2026-02-11T19:29:03.384Z"
+      "customerId": "6f371476-23ce-473a-a600-a84b2f00f1f5"
     }
   ],
   "payments": [
